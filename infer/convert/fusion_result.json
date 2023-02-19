@@ -1,0 +1,59 @@
+{
+    "graph_fusion": {
+        "AABiasaddConvFusion": {
+            "effect_times": "32",
+            "match_times": "32"
+        },
+        "AConv2dMulFusion": {
+            "effect_times": "0",
+            "match_times": "49"
+        },
+        "ConvBatchnormFusionPass": {
+            "effect_times": "49",
+            "match_times": "49"
+        },
+        "ConvToFullyConnectionFusionPass": {
+            "effect_times": "16",
+            "match_times": "81"
+        },
+        "ConvWeightCompressFusionPass": {
+            "effect_times": "0",
+            "match_times": "82"
+        },
+        "MatMulBiasAddFusionPass": {
+            "effect_times": "1",
+            "match_times": "1"
+        },
+        "TBEConvAddFusion": {
+            "effect_times": "9",
+            "match_times": "9"
+        },
+        "TransdataCastFusionPass": {
+            "effect_times": "0",
+            "match_times": "101"
+        }
+    },
+    "session_and_graph_id": "0_0",
+    "ub_fusion": {
+        "ATbeMatmulElemwiseFusionPass": {
+            "effect_times": "16",
+            "match_times": "16"
+        },
+        "AutomaticUbFusion": {
+            "effect_times": "1",
+            "match_times": "1"
+        },
+        "TbeAippCommonFusionPass": {
+            "effect_times": "1",
+            "match_times": "1"
+        },
+        "TbeCommonRules0FusionPass": {
+            "effect_times": "9",
+            "match_times": "9"
+        },
+        "TbeConvSigmoidMulQuantFusionPass": {
+            "effect_times": "48",
+            "match_times": "48"
+        }
+    }
+}
